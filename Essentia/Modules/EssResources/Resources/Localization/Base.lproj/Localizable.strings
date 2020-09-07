@@ -1,0 +1,384 @@
+/* 
+  Localizable.strings
+  Essentia
+
+  Created by Pavlo Boiko on 16.07.18.
+  Copyright © 2018 Essentia-One. All rights reserved.
+*/
+
+"Back" = "Back";
+"Welcome.Restore" = "IMPORT";
+"Welcome.Title1" = "Welcome to";
+"Welcome.Title2" = "Essentia";
+"Welcome.Description" = "Join the framework where all your dApps are interconnected and available any minute. Essentia is your decentralized life, at your fingertips.";
+"Welcome.Enter" = "ENTER";
+"Welcome.Start" = "START";
+"Welcome.Tersm1" = "By continuing you agree to our ";
+"Welcome.Tersm2" = "Terms of Service";
+
+"Warning.Title" = "Is there a ninja\nbehind you?";
+"Warning.Description" = "Make sure no one is watching you - move away from windows and cameras; do not make any screenshots - they can be easily stolen; check if anyone is gandering.";
+"Warning.Done" = "I’M IN A SAFE PLACE";
+
+"WarningKeystore.Title" = "Keep Your Money Make Backup";
+"WarningKeystore.Skip" = "Skip";
+"WarningKeystore.Paragraph1.Title" = "Keep it securely saved!";
+"WarningKeystore.Paragraph1.Description" = "If you lose your backup method, you can't access your account again!";
+"WarningKeystore.Paragraph2.Title" = "Don't share it with anyone!";
+"WarningKeystore.Paragraph2.Description" = "Sharing is caring, but not when it comes to your backup method!";
+"WarningKeystore.Paragraph3.Title" = "Backup your backup!";
+"WarningKeystore.Paragraph3.Description" = "Your account is valuable and has multiple backups keep it extra safe";
+"WarningKeystore.Save" = "Save Keystrore File";
+
+"MnemonicPhrase.Title" = "Mnemonic Phrase";
+"MnemonicPhrase.Description" = "Please save your mnemonic phrase. It’ll let you login to your Essence!";
+"MnemonicLogin.Description" = "Enter your 12 word Mnemonic Phrase to log in to Essentia";
+"MnemonicPhrase.Copy" = "COPY";
+"MnemonicPhrase.Copied" = "COPIED";
+"MnemonicPhrase.Continue" = "CONTINUE";
+
+"MnemonicPhraseConfirm.Title" = "Mnemonic Phrase Confirmation";
+"MnemonicPhraseConfirm.Description" = "Enter the following words to complete the backup process.";
+"MnemonicPhraseConfirm.CurrentWord" = "-th word";
+
+"SeedCopy.Title" = "Seed";
+"SeedCopy.Description" = "Below you’ll see your Seed. Please save it securely since you can use to access your Essence";
+"SeedCopy.Copy" = "COPY";
+"SeedCopy.Copied" = "COPIED";
+"SeedCopy.Continue" = "CONTINUE";
+"SeedConfirm.Description" = "Paste your Seed to access Essentia";
+
+"SeedCopy.Title" = "Create Password";
+"SeedCopy.Description" = "Strong password - secure account. Come up with the unique password to access Essentia later on.";
+"SeedCopy.Continue" = "CONTINUE";
+"InfoAlert.Ok" = "OK";
+
+"Keystore.Title" = "Password";
+"Keystore.Description" = "Create a secure password to login to your Essence - safety first!";
+"Keystore.PasswordField.Title" = "Password";
+"Keystore.PasswordField.Repeat" = "Repeat password";
+"Keystore.PasswordField.Placeholder" = "Required";
+"Keystore.PasswordField.Description" = "Minimum 8 characters";
+"Keystore.PasswordField.Status.Good" = "Good";
+"Keystore.Continue" = "CONTINUE";
+
+"KeyStoreSaved.Title" = "Your Keystore File saved";
+"KeyStoreSaved.Description" = "Now you can login with the Keystore File in Essentia";
+
+"TabBar.Launchpad" = "Launchpad";
+"TabBar.Wallet" = "Wallets";
+"TabBar.Notifications" = "Notifications";
+"TabBar.Settings" = "Settings";
+
+// MARK: - Settings
+
+"Settings.Title" = "Settings";
+"Settings.AccountStrength.Title" = "Account Security";
+"Settings.AccountStrength.Description" = "Backup all three login options to access Essentia from other devices and ensure your savings are securely stored.";
+"Settings.AccountStrength.SecureButton" = "SECURE ACCOUNT";
+"Settings.AccountStrength.Push" = "PUSH";
+"Settings.CurrentAccountTitle" = "Account Name";
+"Settings.CurrentAccountTitle.Default" = "Essentia account";
+"Settings.Title.Language" = "Language";
+"Settings.Title.General" = "GENERAL";
+"Settings.Title.Security" = "SECURITY";
+"Settings.Title.Community" = "COMMUNITY";
+"Settings.Title.Application" = "APPLICATION";
+"Settings.Language" = "Language";
+"Settings.Currency" = "Currency";
+"Settings.Security" = "Security";
+"Settings.DarkTheme" = "Dark Theme";
+"Settings.Feedback" = "Feedback";
+"Settings.Switch" = "Switch Account";
+"Settings.LogOut" = "Log Out";
+"Settings.Delete" = "Delete Account";
+
+"DeleteAccountAlert.Title" = "Delete Account";
+"DeleteAccountAlert.Description" = "Please verify you want to delete your account, all your data and assets will be removed from current device";
+"DeleteAccountAlert.LeftButton" = "DELETE";
+"DeleteAccountAlert.RightButton" = "CANCEL";
+
+"Settings.Secure.Back" = "Settings";
+"Settings.Secure.Title" = "Take these steps to enhance your security";
+"Settings.Secure.Prefix.Save" = "Save";
+"Settings.Secure.Prefix.Show" = "Show";
+"Settings.Secure.Mnemonic.Title" = "Mnemonic Phrase";
+"Settings.Secure.Mnemonic.Description" = "Typically these come in 12-word";
+"Settings.Secure.Seed.Title" = "Seed";
+"Settings.Secure.Seed.Description" = "Is an encrypted version of your unique private key.";
+"Settings.Secure.KeyStore.Title" = "Keystore File";
+"Settings.Secure.KeyStore.Description" = "Download your Keystore file to access to Essentia";
+"Settings.Secure.Description" = "By completing these steps you are making your account more secure";
+
+"Settings.Currency.Title" = "Currency";
+"Settings.Language.Title" = "Language";
+
+"Settings.Accounts.Title" = "Accounts";
+"Settings.Accounts.Edit" = "Edit";
+"Settings.Accounts.Cancel" = "Cancel";
+"Settings.Accounts.CreateNew" = "Create Account";
+
+"Settings.ImportWeb.Title" = "Import from Essentia Web";
+
+"Settings.ImportAccount.Title" = "Import Account";
+"Settings.ImportAccount.Description" = "Choose your...";
+"Settings.ImportAccount.EssentiaApp" = "Essentia App";
+"Settings.ImportAccount.EssentiaWeb" = "Essentia Web";
+"Settings.ImportAccount.Others" = "Other wallets";
+
+"Settings.ImportOther.Title" = "Other wallets";
+
+"Settings.Security.Title" = "Security";
+"Settings.Security.SectionHeader" = "BACKUP FILES";
+"Settings.Security.Mnemonic.Title" = "Mnemonic Phrase";
+"Settings.Security.Mnemonic.Detail" = "Show";
+"Settings.Security.Seed.Title" = "Seed";
+"Settings.Security.Seed.Detail" = "Show";
+"Settings.Security.Keystore.Title" = "Keystore File";
+"Settings.Security.Keystore.Detail" = "Download";
+"Settings.Security.LoginMethod.Title" = "Login Method";
+"Settings.Security.LoginMethod.Detail.None" = "None";
+
+"Currency.usd" = "USD";
+"Currency.eur" = "EUR";
+"Currency.krw" = "KRW";
+"Currency.cny" = "CNY";
+
+"LocalizationLanguage.English" = "English";
+"LocalizationLanguage.Korean" = "Korean";
+"LocalizationLanguage.Chinese" = "Chinese";
+
+"BackupType.Mnemonic" = "Mnemonic";
+"BackupType.Seed" = "Seed";
+"BackupType.Keystore" = "Keystore";
+"BackupType.None" = "None";
+
+"LogOutAction.Title" = "Are you sure?";
+"LogOutAction.Description" = "We noticed that you haven't backed up your account yet. Please back it up if you ever want to access this account again";
+"LogOutAction.LeftButton" = "BACKUP";
+"LogOutAction.RightButton" = "LOG OUT";
+
+"MnemonicBackupWarning.Title" = "You need to backup you KeyStore File";
+"MnemonicBackupWarning.Description" = "In order to use your Wallet, you need to Backup a KeyStore File.";
+"MnemonicBackupWarning.LeftButton" = "CANCEL";
+"MnemonicBackupWarning.RightButton" = "BACKUP";
+
+"Restore.Title" = "Restore";
+"Restore.Description" = "Choose your preferred login method to access your Essentia account";
+"Restore.Mnemonic" = "Mnemonic Phrase";
+"Restore.Seed" = "Seed";
+"Restore.Keystore" = "Keystore File";
+
+"EditAccount.Title" = "Account Name";
+"EditAccount.Done" = "Done";
+"EditAccount.Back" = "Settings";
+"EditAccount.Placeholder" = "Account...";
+"EditAccount.Description" = "Create a name for your account";
+
+// MARK: - Wallet
+
+"Wallet.Welcome.Continue" = "CONTINUE";
+
+"Wallet.Title" = "Wallets";
+"Wallet.Empty.Description.Token" = "No Tokens have been added yet";
+"Wallet.Empty.Description.Coin" = "No Coins have been added yet";
+"Wallet.Empty.Add" = "ADD";
+"Wallet.Main.Balance.Title" = "Total Balance";
+"Wallet.Main.Coins.Essntia" = "ESSENTIA ASSETS";
+"Wallet.Main.Coins.Imported" = "IMPORTED ASSETS";
+"Wallet.Main.Segment.First" = "Coins";
+"Wallet.Main.Segment.Segment" = "Tokens";
+
+"Wallet.NewAsset.Title" = "Add Wallet";
+"Wallet.NewAsset.Add.Title" = "Create Wallet";
+"Wallet.NewAsset.Import.Title" = "Import Wallet";
+
+"Wallet.NewAsset.Token.SelectWallet.Title" = "ETH Wallet";
+"Wallet.NewAsset.Token.SelectWallet.Subtitle" = "Wallet with tokens";
+
+"Wallet.ImportAsset.Title" = "Import Wallet";
+"Wallet.Bitcoin" = "Bitcoin";
+"Wallet.Ethereum" = "Ethereum";
+"Wallet.Litecoin" = "Litecoin";
+"Wallet.BitcoinCash" = "Bitcoin Cash";
+"Wallet.Dash" = "Dash";
+
+"Wallet.Bitcoin.Short" = "BTC";
+"Wallet.Ethereum.Short" = "ETH";
+"Wallet.Litecoin.Short" = "LTC";
+"Wallet.BitcoinCash.Short" = "BCH";
+"Wallet.Dash.Short" = "DASH";
+"Wallet.Import" = "Import";
+"Wallet.Import.Description" = "Name your wallet and enter your private key - that’s all there is to it!";
+"Wallet.Import.PrivateKey" = "Private Key";
+"Wallet.Import.Name" = "Name";
+"Wallet.Import.ImportButton" = "IMPORT";
+
+"Wallet.DoneImporting.Title" = "Well done!";
+"Wallet.DoneImporting.Description" = "The wallet was successfully imported! Enjoy the freedom of your Essentia Wallet!";
+"Wallet.DoneImporting.Button" = "BACK TO WALLET";
+
+"Wallet.DoneGenerating.Title" = "Well done!";
+"Wallet.DoneGenerating.Description" = "Your wallets have been successfully added. You can see them inside the wallet.";
+"Wallet.DoneGenerating.Button" = "BACK TO WALLET";
+
+"Wallet.Deleted.Title" = "Well done!";
+"Wallet.Deleted.Description1" = "Your ";
+"Wallet.Deleted.Description2" = " Wallet successfully deleted.";
+"Wallet.Deleted.Button" = "BACK TO WALLET";
+
+"Wallet.FailImporing.Title" = "Oops";
+"Wallet.FailImporing.Description" = "It seems like something went wrong. Don’t worry, double check the info you entered and try again! It won’t take long, we promise.";
+"Wallet.FailImporing.LeftButton" = "CANCEL";
+"Wallet.FailImporing.RightButton" = "TRY AGAIN";
+
+"Wallet.CreateNewAsset.Title" = "Create Wallet";
+"Wallet.CreateNewAsset.Done" = "Done";
+"Wallet.CreateNewAsset.Switch.Coins" = "Coins";
+"Wallet.CreateNewAsset.Switch.Tokens" = "Tokens";
+"Wallet.CreateNewAsset.SearchPlaceholder" = "Search";
+
+///////////
+
+"Wallet.AddTokens.SelectRoot.Title" = "Choose Wallet";
+"Wallet.AddTokens.SelectRoot.Description" = "Choose wallet you want to add tokens to";
+
+"Wallet.Detail.Balance" = "Balance";
+"Wallet.Detail.Price" = "Price: ";
+"Wallet.Detail.Send" = "SEND";
+"Wallet.Detail.Exchange" = "EXCHANGE";
+"Wallet.Detail.Receive" = "RECEIVE";
+"Wallet.Detail.History.Title" = "Transaction History";
+"Wallet.Detail.History.ReceivedFrom" = "Received from";
+"Wallet.Detail.History.Exchanged" = "Exchanged to";
+"Wallet.Detail.History.SendTo" = "Send to";
+
+"Wallet.TransactionInfo.Title" = "Transaction Info";
+"Wallet.TransactionInfo.ReceivedFrom" = "Received from";
+"Wallet.TransactionInfo.Status" = "Status";
+"Wallet.TransactionInfo.ReceivedTime" = "Received Time";
+"Wallet.TransactionInfo.ReceivedRate" = "Received Rate";
+"Wallet.TransactionInfo.Confirmations" = "Confirmations";
+"Wallet.TransactionInfo.Fee" = "Fee";
+"Wallet.TransactionInfo.Data" = "Data";
+"Wallet.TransactionInfo.More" = "More";
+"Wallet.TransactionInfo.TransactionId" = "Transaction ID";
+"Wallet.TransactionInfo.GoToBlockchain" = "Go to Blockchain";
+"Wallet.TransactionInfo.Close" = "CLOSE";
+
+"Wallet.TransactionType.send" = "Send to";
+"Wallet.TransactionType.recive" = "Received from";
+"Wallet.TransactionType.exchange" = "Exchange to";
+
+"Wallet.Send.Title" = "Send";
+"Wallet.Send.Available" = "Available";
+"Wallet.Send.Continue" = "CONTINUE";
+"Wallet.Send.Amount" = "Amount";
+"Wallet.Send.To" = "To";
+"Wallet.Send.Required" = "Required";
+"Wallet.Send.Data" = "Data";
+"Wallet.Send.Optional" = "Optional";
+"Wallet.Send.Fee" = "Fee";
+"Wallet.Send.InputFee" = "Input Fee";
+"Wallet.Send.Slow" = "Slow";
+"Wallet.Send.Normal" = "Normal";
+"Wallet.Send.Fast" = "Fast";
+"Wallet.Send.Mins" = "mins";
+"Wallet.Send.hours" = "hours";
+"Wallet.Send.TransactionTime" = "Transaction time";
+"Wallet.Send.GenerateTransaction" = "GENERATE TRANSACTION";
+
+"Wallet.Send.Confirm.Title" = "Confirm Transaction";
+"Wallet.Send.Confirm.ToAddress" = "To Address:";
+"Wallet.Send.Confirm.Amount" = "Amount";
+"Wallet.Send.Confirm.Fee" = "Fee";
+"Wallet.Send.Confirm.Time" = "Transaction Time";
+"Wallet.Send.Confirm.Cancel" = "Cancel";
+"Wallet.Send.Confirm.Send" = "Send";
+
+"Wallet.Options.Title" = "Options";
+"Wallet.Options.Rename" = "Rename Wallet";
+"Wallet.Options.Export" = "Export Wallet";
+"Wallet.Options.Export.PK" = "Private Key";
+"Wallet.Options.Export.Copied" = "Private Key copied";
+
+"Wallet.Options.Delete" = "Delete Wallet";
+"Wallet.Options.Delete.Warning.Title" = "Are you sure?";
+"Wallet.Options.Delete.Warning.Description1" = "Do you really want to delete";
+"Wallet.Options.Delete.Warning.Description2" = "from the wallet list?";
+"Wallet.Options.Delete.Warning.Cancel" = "CANCEL";
+"Wallet.Options.Delete.Warning.Delete" = "DELETE";
+
+"Wallet.Receive.Title" = "Receive";
+"Wallet.Receive.Wallet" = "wallet";
+"Wallet.Receive.Copy" = "COPY";
+"Wallet.Receive.Copied" = "Address copied";
+"Wallet.Receive.Request" = "Request specific amount";
+
+"Wallet.Receive.Enter.Done" = "Done";
+"Wallet.Receive.Title" = "Receive";
+"Wallet.Receive.Continue" = "Continue";
+
+"Launchpad.Placeholder.Title" = "Amazing features coming soon!";
+"Launchpad.Placeholder.Swipe" = "Swipe to see";
+
+"Launchpad.Placeholder.Detail.Title" = "Features";
+"Launchpad.Placeholder.Detail.Feature0.Title" = "Automatized Trading";
+"Launchpad.Placeholder.Detail.Feature0.Detail" = "Save time and never miss a deal!";
+"Launchpad.Placeholder.Detail.Feature1.Title" = "Exchanges";
+"Launchpad.Placeholder.Detail.Feature1.Detail" = "Exchange your cryptos safely and easily!";
+"Launchpad.Placeholder.Detail.Feature2.Title" = "Intuitive Trading Experience";
+"Launchpad.Placeholder.Detail.Feature2.Detail" = "Came, saw, traded! No more complicated interfaces!";
+"Launchpad.Placeholder.Detail.Feature3.Title" = "Essentia Crypto Messenger";
+"Launchpad.Placeholder.Detail.Feature3.Detail" = "Use Essentia’s native Crypto Messenger to communicate and send cryptos!";
+"Launchpad.Placeholder.Detail.Feature4.Title" = "Offline Transactions";
+"Launchpad.Placeholder.Detail.Feature4.Detail" = "Conduct your transactions offline!";
+"Launchpad.Placeholder.Detail.Feature5.Title" = "DApp Store";
+"Launchpad.Placeholder.Detail.Feature5.Detail" = "Manage and personalize the various dApps integrated in Essentia!";
+"Launchpad.Placeholder.Detail.Feature6.Title" = "Notifications";
+"Launchpad.Placeholder.Detail.Feature6.Detail" = "Get notified in case of the price change or whenever you receive and send assets!";
+"Launchpad.Placeholder.Detail.Feature7.Title" = "News";
+"Launchpad.Placeholder.Detail.Feature7.Detail" = "Be updated about all the news in the crypto-space with Essentia!";
+"Launchpad.Placeholder.Detail.Feature8.Title" = "Market Analysis";
+"Launchpad.Placeholder.Detail.Feature8.Detail" = "Trade smartly with Essentia’s price analysis!";
+"Launchpad.Placeholder.Detail.Feature9.Title" = "Jarvis";
+"Launchpad.Placeholder.Detail.Feature9.Detail" = "Optimize your crypto-experience with Essentia’s personal AI assistant - Jarvis!";
+"Launchpad.Placeholder.Detail.Feature10.Title" = "AutoSync";
+"Launchpad.Placeholder.Detail.Feature10.Detail" = "Connect your wallets and exchanges to synchronize your balance and transaction history!";
+
+"Settings.FullSecured.Title" = "Fully Secured!";
+"Settings.FullSecured.Description" = "Backup all three login options to access Essentia from other devices and ensure your savings are securely stored.";
+"Settings.FullSecured.Continue" = "CONTINUE";
+
+"Notification.Placeholder.Description" = "We are working on it now, so soon you will be able to have notifications";
+
+
+"Wallet.Onbording1.Title" = "Extra-secure!";
+"Wallet.Onbording1.Detail" = "Leverage the cryptography of the blockchain to keep your assets safe";
+"Wallet.Onbording2.Title" = "Superwallet!";
+"Wallet.Onbording2.Detail" = "Access all of your digital assets from a single wallet across any device";
+"Wallet.Onbording3.Title" = "Lightning fast!";
+"Wallet.Onbording3.Detail" = "Don’t waste your valuable time, leave all the hard work to us!";
+
+"Wallet.Transaction.Send.Done.Title" = "Well done!";
+"Wallet.Transaction.Send.Done.Description" = "Your transactoin has been sent. Soon you will be able to see it in your transaction history.";
+"Wallet.Transaction.Send.Done.Continue" = "BACK TO WALLET";
+
+// MARK: - Paid Accounts
+"PaidAccount.SelectPurchase.Restore" = "Restore";
+"PaidAccount.SelectPurchase.Title" = "Get Accounts";
+"PaidAccount.SelectPurchase.Info" = "Join the framework where all your dApps are interconnected and available any minute.";
+"PaidAccount.SelectPurchase.PayForOne" = "GET 1 ACCOUNT";
+"PaidAccount.SelectPurchase.PayForUnlimited" = "GET UNLIMITED ACCOUNTS";
+
+"PaidAccount.SelectWallet.Title" = "Accounts";
+
+"PaidAccount.Confirm.Title" = "Confirm Pay";
+"PaidAccount.Confirm.From" = "From";
+"PaidAccount.Confirm.To" = "To";
+"PaidAccount.Confirm.AmmountToSend" = "Ammount to send";
+"PaidAccount.Confirm.Cancel" = "CANCEL";
+"PaidAccount.Confirm.Pay" = "PAY";
+
+"PaidAccount.Done.Title" = "Payment complete";
+"PaidAccount.Done.CreateAccount" = "GO TO CREATE ACCOUNT";

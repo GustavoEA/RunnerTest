@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3401AF2620F7C2CA006DEF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF2520F7C2CA006DEF49 /* AppDelegate.swift */; };
+		3401AF2D20F7C2CD006DEF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3401AF2C20F7C2CD006DEF49 /* Assets.xcassets */; };
+		3401AF3020F7C2CD006DEF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3401AF2E20F7C2CD006DEF49 /* LaunchScreen.storyboard */; };
+		3401AF5520F807FB006DEF49 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF5420F807FB006DEF49 /* WelcomeViewController.swift */; };
+		3401AF5920F80B21006DEF49 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF5820F80B21006DEF49 /* main.swift */; };
+		3401AF5B20F80B41006DEF49 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF5A20F80B41006DEF49 /* Application.swift */; };
+		3401AF8E20FE45B2006DEF49 /* ApplicationDependenceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF8D20FE45B2006DEF49 /* ApplicationDependenceProvider.swift */; };
+		3401AF9620FFF5F1006DEF49 /* WarningViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AF9520FFF5F1006DEF49 /* WarningViewContrller.swift */; };
+		3401AFA221000078006DEF49 /* BackupDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFA121000078006DEF49 /* BackupDesign.swift */; };
+		3401AFA42100008B006DEF49 /* BackupDesingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFA32100008B006DEF49 /* BackupDesingInterface.swift */; };
+		3401AFC52101E8B1006DEF49 /* MnemonicPhraseCopyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFC32101E8B1006DEF49 /* MnemonicPhraseCopyViewController.swift */; };
+		3401AFC62101E8B1006DEF49 /* MnemonicPhraseCopyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3401AFC42101E8B1006DEF49 /* MnemonicPhraseCopyViewController.xib */; };
+		3401AFCC21022B1F006DEF49 /* CenteringCollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFCB21022B1F006DEF49 /* CenteringCollectionViewAdapter.swift */; };
+		3401AFE121062B91006DEF49 /* MnemonicPhraseConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFE021062B91006DEF49 /* MnemonicPhraseConfirmViewController.swift */; };
+		3401AFE321062B9A006DEF49 /* MnemonicPhraseConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3401AFE221062B9A006DEF49 /* MnemonicPhraseConfirmViewController.xib */; };
+		3401AFE621064159006DEF49 /* PhraseConfirmCollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFE521064159006DEF49 /* PhraseConfirmCollectionViewAdapter.swift */; };
+		3401AFE82107705B006DEF49 /* CurrentWordIndicatorCollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFE72107705A006DEF49 /* CurrentWordIndicatorCollectionViewAdapter.swift */; };
+		3401AFEE2109FD4F006DEF49 /* MnemonicConfirmEnteringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFED2109FD4F006DEF49 /* MnemonicConfirmEnteringController.swift */; };
+		3401AFF1210A0885006DEF49 /* AuthRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFF0210A0885006DEF49 /* AuthRouterInterface.swift */; };
+		3401AFF3210A0AC6006DEF49 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3401AFF2210A0AC6006DEF49 /* AuthRouter.swift */; };
+		340AC000219B0A6B00DEAFF1 /* FullSecuredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340ABFFF219B0A6B00DEAFF1 /* FullSecuredViewController.swift */; };
+		340D079B22C3C18700F49FB5 /* DeleteAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D079A22C3C18700F49FB5 /* DeleteAccountViewController.swift */; };
+		34115E072134AEDA00A54B7E /* SettingsSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34115E062134AEDA00A54B7E /* SettingsSecurityViewController.swift */; };
+		34115E1321368E9900A54B7E /* NotificationsPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34115E1221368E9900A54B7E /* NotificationsPlaceholderViewController.swift */; };
+		341A527122A717BE000A629B /* DonePurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A527022A717BE000A629B /* DonePurchaseViewController.swift */; };
+		3426963121ED5BB40063E2D8 /* EssResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347DB23421ED55C8004420FA /* EssResources.framework */; };
+		3426963221ED5BB40063E2D8 /* EssResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 347DB23421ED55C8004420FA /* EssResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		343122672124AD0C009E4A7A /* KeyStoreWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343122662124AD0C009E4A7A /* KeyStoreWarningViewController.swift */; };
+		344167F7212EC235008B8A91 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344167F6212EC235008B8A91 /* LoginInteractor.swift */; };
+		344167F9212EC246008B8A91 /* LoginInteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344167F8212EC246008B8A91 /* LoginInteractorInterface.swift */; };
+		34416805212F6F33008B8A91 /* SettingsCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34416804212F6F33008B8A91 /* SettingsCurrencyViewController.swift */; };
+		344826522114B21B00C19EB3 /* PhraseEnteringState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344826512114B21B00C19EB3 /* PhraseEnteringState.swift */; };
+		344826542115EFA700C19EB3 /* PhraseEnteringControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344826532115EFA700C19EB3 /* PhraseEnteringControllerDelegate.swift */; };
+		3448265921189B7900C19EB3 /* SeedCopyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448265821189B7900C19EB3 /* SeedCopyViewController.swift */; };
+		3448265B21189B8500C19EB3 /* SeedCopyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3448265A21189B8500C19EB3 /* SeedCopyViewController.xib */; };
+		3448265E2119A10600C19EB3 /* KeyStorePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448265D2119A10600C19EB3 /* KeyStorePasswordViewController.swift */; };
+		3448266C211B362000C19EB3 /* LaunchpadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448266B211B362000C19EB3 /* LaunchpadViewController.swift */; };
+		3448266E211B362A00C19EB3 /* LaunchpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3448266D211B362A00C19EB3 /* LaunchpadViewController.xib */; };
+		34482670211B366400C19EB3 /* LaunchpadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448266F211B366400C19EB3 /* LaunchpadItem.swift */; };
+		34482678211B9BAC00C19EB3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34482677211B9BAC00C19EB3 /* TabBarController.swift */; };
+		34482682211C3FB500C19EB3 /* LaunchpadCollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34482681211C3FB500C19EB3 /* LaunchpadCollectionViewAdapter.swift */; };
+		344826C721218C9C00C19EB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344826C621218C9C00C19EB3 /* SettingsViewController.swift */; };
+		346C8F0B229F40F900DED862 /* SelectPurchaseWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8ED9229F40F800DED862 /* SelectPurchaseWalletViewController.swift */; };
+		346C8F0C229F40F900DED862 /* ConfirmPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EDA229F40F800DED862 /* ConfirmPurchaseViewController.swift */; };
+		346C8F0D229F40F900DED862 /* SelectAccountToPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EDB229F40F800DED862 /* SelectAccountToPurchaseViewController.swift */; };
+		346C8F0E229F40F900DED862 /* SelectPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EDC229F40F800DED862 /* SelectPurchaseViewController.swift */; };
+		346C8F0F229F40F900DED862 /* WalletOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE0229F40F800DED862 /* WalletOptionsViewController.swift */; };
+		346C8F10229F40F900DED862 /* DeleteWalletWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE1229F40F800DED862 /* DeleteWalletWarningViewController.swift */; };
+		346C8F11229F40F900DED862 /* WalletDeletedWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE2229F40F800DED862 /* WalletDeletedWarningViewController.swift */; };
+		346C8F12229F40F900DED862 /* WalletDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE3229F40F800DED862 /* WalletDetailViewController.swift */; };
+		346C8F13229F40F900DED862 /* WalletEnterReceiveAmmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE5229F40F800DED862 /* WalletEnterReceiveAmmount.swift */; };
+		346C8F14229F40F900DED862 /* WallerReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE6229F40F800DED862 /* WallerReceiveViewController.swift */; };
+		346C8F15229F40F900DED862 /* WalletCreateNewAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE8229F40F800DED862 /* WalletCreateNewAssetViewController.swift */; };
+		346C8F16229F40F900DED862 /* WalletImportAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EE9229F40F800DED862 /* WalletImportAssetViewController.swift */; };
+		346C8F17229F40F900DED862 /* WalletNewAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EEA229F40F800DED862 /* WalletNewAssetViewController.swift */; };
+		346C8F18229F40F900DED862 /* WalletSelectImportAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EEB229F40F800DED862 /* WalletSelectImportAssetViewController.swift */; };
+		346C8F19229F40F900DED862 /* WalletDoneImportingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EEC229F40F800DED862 /* WalletDoneImportingAlert.swift */; };
+		346C8F1A229F40F900DED862 /* WalletDoneGeneratingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EED229F40F800DED862 /* WalletDoneGeneratingAlert.swift */; };
+		346C8F1B229F40F900DED862 /* FailImportingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EEE229F40F800DED862 /* FailImportingAlert.swift */; };
+		346C8F1C229F40F900DED862 /* SelectWalletPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EEF229F40F800DED862 /* SelectWalletPopUp.swift */; };
+		346C8F1D229F40F900DED862 /* WalletMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF1229F40F800DED862 /* WalletMainViewController.swift */; };
+		346C8F1E229F40F900DED862 /* BackupMnemonicAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF2229F40F800DED862 /* BackupMnemonicAlert.swift */; };
+		346C8F1F229F40F900DED862 /* WalletWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF3229F40F800DED862 /* WalletWelcomeViewController.swift */; };
+		346C8F20229F40F900DED862 /* SelectedTransacrionAmmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF5229F40F800DED862 /* SelectedTransacrionAmmount.swift */; };
+		346C8F21229F40F900DED862 /* DoneTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF6229F40F800DED862 /* DoneTransactionViewController.swift */; };
+		346C8F22229F40F900DED862 /* EnterTransactionAmmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF7229F40F800DED862 /* EnterTransactionAmmountViewController.swift */; };
+		346C8F23229F40F900DED862 /* EtherTxInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EF9229F40F800DED862 /* EtherTxInfo.swift */; };
+		346C8F24229F40F900DED862 /* SendEthTransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EFA229F40F800DED862 /* SendEthTransactionDetailViewController.swift */; };
+		346C8F25229F40F900DED862 /* ConfirmEthereumTransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EFB229F40F800DED862 /* ConfirmEthereumTransactionDetailViewController.swift */; };
+		346C8F26229F40F900DED862 /* ConfirmUtxoTxDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EFD229F40F800DED862 /* ConfirmUtxoTxDetailViewController.swift */; };
+		346C8F27229F40F900DED862 /* UtxoResponce+UnspendTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EFE229F40F800DED862 /* UtxoResponce+UnspendTransaction.swift */; };
+		346C8F28229F40F900DED862 /* UtxoTxInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8EFF229F40F800DED862 /* UtxoTxInfo.swift */; };
+		346C8F29229F40F900DED862 /* SendUtxoTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F00229F40F800DED862 /* SendUtxoTransactionViewController.swift */; };
+		346C8F2A229F40F900DED862 /* WalletInteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F03229F40F800DED862 /* WalletInteractorInterface.swift */; };
+		346C8F2B229F40F900DED862 /* WalletInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F04229F40F800DED862 /* WalletInteractor.swift */; };
+		346C8F2C229F40F900DED862 /* WalletBlockchainWrapperInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F06229F40F800DED862 /* WalletBlockchainWrapperInteractor.swift */; };
+		346C8F2D229F40F900DED862 /* WalletBlockchainWrapperInteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F07229F40F800DED862 /* WalletBlockchainWrapperInteractorInterface.swift */; };
+		346C8F2E229F40F900DED862 /* WalletRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F09229F40F800DED862 /* WalletRouter.swift */; };
+		346C8F2F229F40F900DED862 /* WalletRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C8F0A229F40F800DED862 /* WalletRouterInterface.swift */; };
+		346C8F31229F41EF00DED862 /* libEssCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 346C8F30229F41EF00DED862 /* libEssCore.a */; };
+		349AA49B2122F15000E9256F /* SecureAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AA49A2122F15000E9256F /* SecureAccountViewController.swift */; };
+		349AA49F2122F48900E9256F /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AA49E2122F48900E9256F /* SettingsRouter.swift */; };
+		34AA4E922136ABDD004C25ED /* SelectBackupTypeViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA4E912136ABDD004C25ED /* SelectBackupTypeViewConroller.swift */; };
+		34AC4DF021494203001C17D8 /* KeystoreSavedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AC4DEF21494203001C17D8 /* KeystoreSavedAlert.swift */; };
+		34B27A3021302E2300527F15 /* SettingsLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B27A2F21302E2300527F15 /* SettingsLanguageViewController.swift */; };
+		34B27A4E2133712200527F15 /* SelectAccoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B27A4D2133712200527F15 /* SelectAccoutViewController.swift */; };
+		34B612DD220DAC1A006EA6B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34B612DC220DAC1A006EA6B3 /* GoogleService-Info.plist */; };
+		34C0911E223808DA000FAF5C /* CenteringLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0911D223808DA000FAF5C /* CenteringLayout.swift */; };
+		34C0AD5922C665D800B5F8FC /* DeleteAccountAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0AD5822C665D800B5F8FC /* DeleteAccountAlertViewController.swift */; };
+		34C19BC62224228800B02203 /* ImportAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C19BC52224228800B02203 /* ImportAccountViewController.swift */; };
+		34C19BC82226E46500B02203 /* ImportFromOtherWallets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C19BC72226E46500B02203 /* ImportFromOtherWallets.swift */; };
+		34D9C96121F9311D00B3A625 /* EssUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 345747BF21F5BB95006E2EAB /* EssUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34ECE48C2136F10A008D9696 /* ConfirmLogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECE48B2136F10A008D9696 /* ConfirmLogOutViewController.swift */; };
+		34ECE49021374247008D9696 /* SettingsEditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECE48F21374247008D9696 /* SettingsEditUserViewController.swift */; };
+		34ECE49821387A5D008D9696 /* MnemonicLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECE49721387A5D008D9696 /* MnemonicLoginController.swift */; };
+		34F2884421CCD1BF0098E4CF /* LoginPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2884321CCD1BF0098E4CF /* LoginPasswordViewController.swift */; };
+		E07D01E924EE5BED00577FF5 /* DecibelSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07D01E624EE5BB900577FF5 /* DecibelSDK.framework */; };
+		E07D01EA24EE5BED00577FF5 /* DecibelSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E07D01E624EE5BB900577FF5 /* DecibelSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7164E6551E391201522411B /* Pods_Essentia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ADBFCB3F2F751F6B1420DB /* Pods_Essentia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3401AFB621012D93006DEF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3401AF1A20F7C2CA006DEF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3401AF2120F7C2CA006DEF49;
+			remoteInfo = Essentia;
+		};
+		E07D01E524EE5BB900577FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07D01E024EE5BB900577FF5 /* DecibelSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD4778262487F2DF00589145;
+			remoteInfo = DecibelSDK;
+		};
+		E07D01E724EE5BB900577FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07D01E024EE5BB900577FF5 /* DecibelSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD47782F2487F2E000589145;
+			remoteInfo = DecibelSDKTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3426963321ED5BB40063E2D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34D9C96121F9311D00B3A625 /* EssUI.framework in Embed Frameworks */,
+				3426963221ED5BB40063E2D8 /* EssResources.framework in Embed Frameworks */,
+				E07D01EA24EE5BED00577FF5 /* DecibelSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3401AF2220F7C2CA006DEF49 /* Essentia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3401AF2520F7C2CA006DEF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3401AF2C20F7C2CD006DEF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3401AF2F20F7C2CD006DEF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3401AF3120F7C2CD006DEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3401AF5420F807FB006DEF49 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3401AF5820F80B21006DEF49 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3401AF5A20F80B41006DEF49 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		3401AF8D20FE45B2006DEF49 /* ApplicationDependenceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependenceProvider.swift; sourceTree = "<group>"; };
+		3401AF9520FFF5F1006DEF49 /* WarningViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewContrller.swift; sourceTree = "<group>"; };
+		3401AFA121000078006DEF49 /* BackupDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupDesign.swift; sourceTree = "<group>"; };
+		3401AFA32100008B006DEF49 /* BackupDesingInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupDesingInterface.swift; sourceTree = "<group>"; };
+		3401AFB121012D93006DEF49 /* EssentiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3401AFB521012D93006DEF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3401AFC32101E8B1006DEF49 /* MnemonicPhraseCopyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MnemonicPhraseCopyViewController.swift; sourceTree = "<group>"; };
+		3401AFC42101E8B1006DEF49 /* MnemonicPhraseCopyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MnemonicPhraseCopyViewController.xib; sourceTree = "<group>"; };
+		3401AFCB21022B1F006DEF49 /* CenteringCollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteringCollectionViewAdapter.swift; sourceTree = "<group>"; };
+		3401AFE021062B91006DEF49 /* MnemonicPhraseConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicPhraseConfirmViewController.swift; sourceTree = "<group>"; };
+		3401AFE221062B9A006DEF49 /* MnemonicPhraseConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MnemonicPhraseConfirmViewController.xib; sourceTree = "<group>"; };
+		3401AFE521064159006DEF49 /* PhraseConfirmCollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseConfirmCollectionViewAdapter.swift; sourceTree = "<group>"; };
+		3401AFE72107705A006DEF49 /* CurrentWordIndicatorCollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWordIndicatorCollectionViewAdapter.swift; sourceTree = "<group>"; };
+		3401AFED2109FD4F006DEF49 /* MnemonicConfirmEnteringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicConfirmEnteringController.swift; sourceTree = "<group>"; };
+		3401AFF0210A0885006DEF49 /* AuthRouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouterInterface.swift; sourceTree = "<group>"; };
+		3401AFF2210A0AC6006DEF49 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		340ABFFF219B0A6B00DEAFF1 /* FullSecuredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSecuredViewController.swift; sourceTree = "<group>"; };
+		340D079A22C3C18700F49FB5 /* DeleteAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountViewController.swift; sourceTree = "<group>"; };
+		34115E062134AEDA00A54B7E /* SettingsSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSecurityViewController.swift; sourceTree = "<group>"; };
+		34115E1221368E9900A54B7E /* NotificationsPlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPlaceholderViewController.swift; sourceTree = "<group>"; };
+		341A527022A717BE000A629B /* DonePurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonePurchaseViewController.swift; sourceTree = "<group>"; };
+		343122662124AD0C009E4A7A /* KeyStoreWarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoreWarningViewController.swift; sourceTree = "<group>"; };
+		343C84F321D50617000FEE9A /* libEssModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEssModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		344167F6212EC235008B8A91 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		344167F8212EC246008B8A91 /* LoginInteractorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorInterface.swift; sourceTree = "<group>"; };
+		34416804212F6F33008B8A91 /* SettingsCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCurrencyViewController.swift; sourceTree = "<group>"; };
+		344826512114B21B00C19EB3 /* PhraseEnteringState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseEnteringState.swift; sourceTree = "<group>"; };
+		344826532115EFA700C19EB3 /* PhraseEnteringControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseEnteringControllerDelegate.swift; sourceTree = "<group>"; };
+		3448265821189B7900C19EB3 /* SeedCopyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedCopyViewController.swift; sourceTree = "<group>"; };
+		3448265A21189B8500C19EB3 /* SeedCopyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeedCopyViewController.xib; sourceTree = "<group>"; };
+		3448265D2119A10600C19EB3 /* KeyStorePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorePasswordViewController.swift; sourceTree = "<group>"; };
+		3448266B211B362000C19EB3 /* LaunchpadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadViewController.swift; sourceTree = "<group>"; };
+		3448266D211B362A00C19EB3 /* LaunchpadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchpadViewController.xib; sourceTree = "<group>"; };
+		3448266F211B366400C19EB3 /* LaunchpadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadItem.swift; sourceTree = "<group>"; };
+		34482677211B9BAC00C19EB3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		34482681211C3FB500C19EB3 /* LaunchpadCollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadCollectionViewAdapter.swift; sourceTree = "<group>"; };
+		344826C621218C9C00C19EB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		345747AB21F50DD6006E2EAB /* libEssWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEssWallet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		345747BF21F5BB95006E2EAB /* EssUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		346C8ED9229F40F800DED862 /* SelectPurchaseWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPurchaseWalletViewController.swift; sourceTree = "<group>"; };
+		346C8EDA229F40F800DED862 /* ConfirmPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPurchaseViewController.swift; sourceTree = "<group>"; };
+		346C8EDB229F40F800DED862 /* SelectAccountToPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAccountToPurchaseViewController.swift; sourceTree = "<group>"; };
+		346C8EDC229F40F800DED862 /* SelectPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPurchaseViewController.swift; sourceTree = "<group>"; };
+		346C8EE0229F40F800DED862 /* WalletOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletOptionsViewController.swift; sourceTree = "<group>"; };
+		346C8EE1229F40F800DED862 /* DeleteWalletWarningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteWalletWarningViewController.swift; sourceTree = "<group>"; };
+		346C8EE2229F40F800DED862 /* WalletDeletedWarningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletDeletedWarningViewController.swift; sourceTree = "<group>"; };
+		346C8EE3229F40F800DED862 /* WalletDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletDetailViewController.swift; sourceTree = "<group>"; };
+		346C8EE5229F40F800DED862 /* WalletEnterReceiveAmmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletEnterReceiveAmmount.swift; sourceTree = "<group>"; };
+		346C8EE6229F40F800DED862 /* WallerReceiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallerReceiveViewController.swift; sourceTree = "<group>"; };
+		346C8EE8229F40F800DED862 /* WalletCreateNewAssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletCreateNewAssetViewController.swift; sourceTree = "<group>"; };
+		346C8EE9229F40F800DED862 /* WalletImportAssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletImportAssetViewController.swift; sourceTree = "<group>"; };
+		346C8EEA229F40F800DED862 /* WalletNewAssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletNewAssetViewController.swift; sourceTree = "<group>"; };
+		346C8EEB229F40F800DED862 /* WalletSelectImportAssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletSelectImportAssetViewController.swift; sourceTree = "<group>"; };
+		346C8EEC229F40F800DED862 /* WalletDoneImportingAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletDoneImportingAlert.swift; sourceTree = "<group>"; };
+		346C8EED229F40F800DED862 /* WalletDoneGeneratingAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletDoneGeneratingAlert.swift; sourceTree = "<group>"; };
+		346C8EEE229F40F800DED862 /* FailImportingAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailImportingAlert.swift; sourceTree = "<group>"; };
+		346C8EEF229F40F800DED862 /* SelectWalletPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectWalletPopUp.swift; sourceTree = "<group>"; };
+		346C8EF1229F40F800DED862 /* WalletMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletMainViewController.swift; sourceTree = "<group>"; };
+		346C8EF2229F40F800DED862 /* BackupMnemonicAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackupMnemonicAlert.swift; sourceTree = "<group>"; };
+		346C8EF3229F40F800DED862 /* WalletWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletWelcomeViewController.swift; sourceTree = "<group>"; };
+		346C8EF5229F40F800DED862 /* SelectedTransacrionAmmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedTransacrionAmmount.swift; sourceTree = "<group>"; };
+		346C8EF6229F40F800DED862 /* DoneTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneTransactionViewController.swift; sourceTree = "<group>"; };
+		346C8EF7229F40F800DED862 /* EnterTransactionAmmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterTransactionAmmountViewController.swift; sourceTree = "<group>"; };
+		346C8EF9229F40F800DED862 /* EtherTxInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherTxInfo.swift; sourceTree = "<group>"; };
+		346C8EFA229F40F800DED862 /* SendEthTransactionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEthTransactionDetailViewController.swift; sourceTree = "<group>"; };
+		346C8EFB229F40F800DED862 /* ConfirmEthereumTransactionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmEthereumTransactionDetailViewController.swift; sourceTree = "<group>"; };
+		346C8EFD229F40F800DED862 /* ConfirmUtxoTxDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmUtxoTxDetailViewController.swift; sourceTree = "<group>"; };
+		346C8EFE229F40F800DED862 /* UtxoResponce+UnspendTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UtxoResponce+UnspendTransaction.swift"; sourceTree = "<group>"; };
+		346C8EFF229F40F800DED862 /* UtxoTxInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtxoTxInfo.swift; sourceTree = "<group>"; };
+		346C8F00229F40F800DED862 /* SendUtxoTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendUtxoTransactionViewController.swift; sourceTree = "<group>"; };
+		346C8F03229F40F800DED862 /* WalletInteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletInteractorInterface.swift; sourceTree = "<group>"; };
+		346C8F04229F40F800DED862 /* WalletInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletInteractor.swift; sourceTree = "<group>"; };
+		346C8F06229F40F800DED862 /* WalletBlockchainWrapperInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletBlockchainWrapperInteractor.swift; sourceTree = "<group>"; };
+		346C8F07229F40F800DED862 /* WalletBlockchainWrapperInteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletBlockchainWrapperInteractorInterface.swift; sourceTree = "<group>"; };
+		346C8F09229F40F800DED862 /* WalletRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletRouter.swift; sourceTree = "<group>"; };
+		346C8F0A229F40F800DED862 /* WalletRouterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletRouterInterface.swift; sourceTree = "<group>"; };
+		346C8F30229F41EF00DED862 /* libEssCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEssCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		347DB23421ED55C8004420FA /* EssResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349AA49A2122F15000E9256F /* SecureAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAccountViewController.swift; sourceTree = "<group>"; };
+		349AA49E2122F48900E9256F /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		34AA4E912136ABDD004C25ED /* SelectBackupTypeViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBackupTypeViewConroller.swift; sourceTree = "<group>"; };
+		34AC4DEF21494203001C17D8 /* KeystoreSavedAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoreSavedAlert.swift; sourceTree = "<group>"; };
+		34B1436D21D3C9C700EC06AE /* libEssCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEssCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B27A2F21302E2300527F15 /* SettingsLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLanguageViewController.swift; sourceTree = "<group>"; };
+		34B27A4D2133712200527F15 /* SelectAccoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccoutViewController.swift; sourceTree = "<group>"; };
+		34B612DC220DAC1A006EA6B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34B612DF220DB704006EA6B3 /* Essentia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Essentia.entitlements; sourceTree = "<group>"; };
+		34C0911D223808DA000FAF5C /* CenteringLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteringLayout.swift; sourceTree = "<group>"; };
+		34C0AD5822C665D800B5F8FC /* DeleteAccountAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountAlertViewController.swift; sourceTree = "<group>"; };
+		34C19BC52224228800B02203 /* ImportAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAccountViewController.swift; sourceTree = "<group>"; };
+		34C19BC72226E46500B02203 /* ImportFromOtherWallets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFromOtherWallets.swift; sourceTree = "<group>"; };
+		34ECE48B2136F10A008D9696 /* ConfirmLogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLogOutViewController.swift; sourceTree = "<group>"; };
+		34ECE48F21374247008D9696 /* SettingsEditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditUserViewController.swift; sourceTree = "<group>"; };
+		34ECE49721387A5D008D9696 /* MnemonicLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicLoginController.swift; sourceTree = "<group>"; };
+		34F2884321CCD1BF0098E4CF /* LoginPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPasswordViewController.swift; sourceTree = "<group>"; };
+		34F6DCCF21F3BD1A00935A23 /* libEssStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEssStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4CA8F6982BE5CA1B1027D8 /* Pods-Essentia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essentia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Essentia/Pods-Essentia.release.xcconfig"; sourceTree = "<group>"; };
+		A1ADBFCB3F2F751F6B1420DB /* Pods_Essentia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Essentia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5095476FCA3B42E7A63E40A /* Pods-Essentia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essentia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Essentia/Pods-Essentia.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC5A9F9A18EC49B38D82905 /* Pods-Essentia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essentia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Essentia/Pods-Essentia.debug.xcconfig"; sourceTree = "<group>"; };
+		CF82FC3EA722652B63E7C7EB /* Pods-Essentia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essentia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Essentia/Pods-Essentia.release.xcconfig"; sourceTree = "<group>"; };
+		E07D01E024EE5BB900577FF5 /* DecibelSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DecibelSDK.xcodeproj; path = ../../../../SDK/DecibelSDK/DecibelSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3401AF1F20F7C2CA006DEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C8F31229F41EF00DED862 /* libEssCore.a in Frameworks */,
+				3426963121ED5BB40063E2D8 /* EssResources.framework in Frameworks */,
+				E07D01E924EE5BED00577FF5 /* DecibelSDK.framework in Frameworks */,
+				E7164E6551E391201522411B /* Pods_Essentia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3401AFAE21012D93006DEF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3401AF1920F7C2CA006DEF49 = {
+			isa = PBXGroup;
+			children = (
+				3401AF2420F7C2CA006DEF49 /* Essentia */,
+				3401AFB221012D93006DEF49 /* EssentiaTests */,
+				3401AF2320F7C2CA006DEF49 /* Products */,
+				E89F81E827245E426E0DF11A /* Frameworks */,
+				734BB9C102E6709C3C2DC5E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3401AF2320F7C2CA006DEF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3401AF2220F7C2CA006DEF49 /* Essentia.app */,
+				3401AFB121012D93006DEF49 /* EssentiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3401AF2420F7C2CA006DEF49 /* Essentia */ = {
+			isa = PBXGroup;
+			children = (
+				E07D01DF24EE5B7100577FF5 /* Library */,
+				34B612DF220DB704006EA6B3 /* Essentia.entitlements */,
+				95AC5A4B6668826F51D64E2B /* Pods */,
+				3401AF5120F806C9006DEF49 /* UserCases */,
+				3401AF3920F7C3BC006DEF49 /* Resources */,
+				3401AF3820F7C3B1006DEF49 /* Application */,
+			);
+			path = Essentia;
+			sourceTree = "<group>";
+		};
+		3401AF3820F7C3B1006DEF49 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3401AF5A20F80B41006DEF49 /* Application.swift */,
+				3401AF8C20FE4592006DEF49 /* DependenceProvider */,
+				3401AF2520F7C2CA006DEF49 /* AppDelegate.swift */,
+				3401AF5820F80B21006DEF49 /* main.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3401AF3920F7C3BC006DEF49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3401AF2E20F7C2CD006DEF49 /* LaunchScreen.storyboard */,
+				3401AF2C20F7C2CD006DEF49 /* Assets.xcassets */,
+				34B612DC220DAC1A006EA6B3 /* GoogleService-Info.plist */,
+				3401AF3120F7C2CD006DEF49 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3401AF5120F806C9006DEF49 /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				346C8ED7229F40F800DED862 /* PaidAccounts */,
+				346C8EDD229F40F800DED862 /* Wallet */,
+				34482683211DD17000C19EB3 /* Settings */,
+				34115E1121368E7100A54B7E /* Notifications */,
+				34482668211B321000C19EB3 /* Launchpad */,
+				3401AF9120FFF48C006DEF49 /* Auth */,
+				34482674211B9B6300C19EB3 /* TabBar */,
+				3401AF5220F80704006DEF49 /* Login */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		3401AF5220F80704006DEF49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				344167F5212EC222008B8A91 /* Interactor */,
+				3401AF7920FD328C006DEF49 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3401AF7920FD328C006DEF49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34AA4E912136ABDD004C25ED /* SelectBackupTypeViewConroller.swift */,
+				3401AF5420F807FB006DEF49 /* WelcomeViewController.swift */,
+				34F2884321CCD1BF0098E4CF /* LoginPasswordViewController.swift */,
+				34C19BC52224228800B02203 /* ImportAccountViewController.swift */,
+				34C19BC72226E46500B02203 /* ImportFromOtherWallets.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3401AF8C20FE4592006DEF49 /* DependenceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3401AF8D20FE45B2006DEF49 /* ApplicationDependenceProvider.swift */,
+			);
+			path = DependenceProvider;
+			sourceTree = "<group>";
+		};
+		3401AF9120FFF48C006DEF49 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFEF210A0867006DEF49 /* Router */,
+				3401AF9320FFF4A3006DEF49 /* Controllers */,
+				3401AF9220FFF49A006DEF49 /* Design */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3401AF9220FFF49A006DEF49 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFA121000078006DEF49 /* BackupDesign.swift */,
+				3401AFA32100008B006DEF49 /* BackupDesingInterface.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3401AF9320FFF4A3006DEF49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3401AF9520FFF5F1006DEF49 /* WarningViewContrller.swift */,
+				3448265D2119A10600C19EB3 /* KeyStorePasswordViewController.swift */,
+				343122662124AD0C009E4A7A /* KeyStoreWarningViewController.swift */,
+				3448265721189B5B00C19EB3 /* SeedCopy */,
+				3401AFDF21062854006DEF49 /* MnemonicPhraseConfirm */,
+				3401AFC22101E8B1006DEF49 /* MnemonicPhraseCopy */,
+				34AC4DEF21494203001C17D8 /* KeystoreSavedAlert.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3401AFB221012D93006DEF49 /* EssentiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFB521012D93006DEF49 /* Info.plist */,
+			);
+			path = EssentiaTests;
+			sourceTree = "<group>";
+		};
+		3401AFC22101E8B1006DEF49 /* MnemonicPhraseCopy */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFCA21022B07006DEF49 /* CollectionView */,
+				3401AFC32101E8B1006DEF49 /* MnemonicPhraseCopyViewController.swift */,
+				3401AFC42101E8B1006DEF49 /* MnemonicPhraseCopyViewController.xib */,
+				34C0911D223808DA000FAF5C /* CenteringLayout.swift */,
+			);
+			path = MnemonicPhraseCopy;
+			sourceTree = "<group>";
+		};
+		3401AFCA21022B07006DEF49 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFCB21022B1F006DEF49 /* CenteringCollectionViewAdapter.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		3401AFDF21062854006DEF49 /* MnemonicPhraseConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				344826502114B1DF00C19EB3 /* Controllers */,
+				3401AFE421064133006DEF49 /* CollectionView */,
+				3401AFE221062B9A006DEF49 /* MnemonicPhraseConfirmViewController.xib */,
+				344826512114B21B00C19EB3 /* PhraseEnteringState.swift */,
+			);
+			path = MnemonicPhraseConfirm;
+			sourceTree = "<group>";
+		};
+		3401AFE421064133006DEF49 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFE521064159006DEF49 /* PhraseConfirmCollectionViewAdapter.swift */,
+				3401AFE72107705A006DEF49 /* CurrentWordIndicatorCollectionViewAdapter.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		3401AFEF210A0867006DEF49 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3401AFF2210A0AC6006DEF49 /* AuthRouter.swift */,
+				3401AFF0210A0885006DEF49 /* AuthRouterInterface.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		34115E1121368E7100A54B7E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				34115E1221368E9900A54B7E /* NotificationsPlaceholderViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		344167F5212EC222008B8A91 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				344167F6212EC235008B8A91 /* LoginInteractor.swift */,
+				344167F8212EC246008B8A91 /* LoginInteractorInterface.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		344826502114B1DF00C19EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34ECE49721387A5D008D9696 /* MnemonicLoginController.swift */,
+				3401AFE021062B91006DEF49 /* MnemonicPhraseConfirmViewController.swift */,
+				3401AFED2109FD4F006DEF49 /* MnemonicConfirmEnteringController.swift */,
+				344826532115EFA700C19EB3 /* PhraseEnteringControllerDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3448265721189B5B00C19EB3 /* SeedCopy */ = {
+			isa = PBXGroup;
+			children = (
+				3448265821189B7900C19EB3 /* SeedCopyViewController.swift */,
+				3448265A21189B8500C19EB3 /* SeedCopyViewController.xib */,
+			);
+			path = SeedCopy;
+			sourceTree = "<group>";
+		};
+		34482668211B321000C19EB3 /* Launchpad */ = {
+			isa = PBXGroup;
+			children = (
+				3448266A211B360200C19EB3 /* LaunchpadController */,
+				34482669211B345800C19EB3 /* Items */,
+			);
+			path = Launchpad;
+			sourceTree = "<group>";
+		};
+		34482669211B345800C19EB3 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				3448266F211B366400C19EB3 /* LaunchpadItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		3448266A211B360200C19EB3 /* LaunchpadController */ = {
+			isa = PBXGroup;
+			children = (
+				34482681211C3FB500C19EB3 /* LaunchpadCollectionViewAdapter.swift */,
+				3448266B211B362000C19EB3 /* LaunchpadViewController.swift */,
+				3448266D211B362A00C19EB3 /* LaunchpadViewController.xib */,
+			);
+			path = LaunchpadController;
+			sourceTree = "<group>";
+		};
+		34482674211B9B6300C19EB3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				34482677211B9BAC00C19EB3 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		34482683211DD17000C19EB3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				349AA4962122F11900E9256F /* Router */,
+				349AA4942122F0F600E9256F /* Controllers */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		346C8ED7229F40F800DED862 /* PaidAccounts */ = {
+			isa = PBXGroup;
+			children = (
+				346C8ED8229F40F800DED862 /* Controllers */,
+			);
+			path = PaidAccounts;
+			sourceTree = "<group>";
+		};
+		346C8ED8229F40F800DED862 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				346C8ED9229F40F800DED862 /* SelectPurchaseWalletViewController.swift */,
+				346C8EDA229F40F800DED862 /* ConfirmPurchaseViewController.swift */,
+				346C8EDB229F40F800DED862 /* SelectAccountToPurchaseViewController.swift */,
+				346C8EDC229F40F800DED862 /* SelectPurchaseViewController.swift */,
+				341A527022A717BE000A629B /* DonePurchaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		346C8EDD229F40F800DED862 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EDE229F40F800DED862 /* Controllers */,
+				346C8F01229F40F800DED862 /* Interactor */,
+				346C8F08229F40F800DED862 /* Router */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		346C8EDE229F40F800DED862 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EDF229F40F800DED862 /* WalletDetails */,
+				346C8EE4229F40F800DED862 /* Receive */,
+				346C8EE7229F40F800DED862 /* AddWallet */,
+				346C8EF0229F40F800DED862 /* Main */,
+				346C8EF4229F40F800DED862 /* Send */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		346C8EDF229F40F800DED862 /* WalletDetails */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EE0229F40F800DED862 /* WalletOptionsViewController.swift */,
+				346C8EE1229F40F800DED862 /* DeleteWalletWarningViewController.swift */,
+				346C8EE2229F40F800DED862 /* WalletDeletedWarningViewController.swift */,
+				346C8EE3229F40F800DED862 /* WalletDetailViewController.swift */,
+			);
+			path = WalletDetails;
+			sourceTree = "<group>";
+		};
+		346C8EE4229F40F800DED862 /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EE5229F40F800DED862 /* WalletEnterReceiveAmmount.swift */,
+				346C8EE6229F40F800DED862 /* WallerReceiveViewController.swift */,
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		346C8EE7229F40F800DED862 /* AddWallet */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EE8229F40F800DED862 /* WalletCreateNewAssetViewController.swift */,
+				346C8EE9229F40F800DED862 /* WalletImportAssetViewController.swift */,
+				346C8EEA229F40F800DED862 /* WalletNewAssetViewController.swift */,
+				346C8EEB229F40F800DED862 /* WalletSelectImportAssetViewController.swift */,
+				346C8EEC229F40F800DED862 /* WalletDoneImportingAlert.swift */,
+				346C8EED229F40F800DED862 /* WalletDoneGeneratingAlert.swift */,
+				346C8EEE229F40F800DED862 /* FailImportingAlert.swift */,
+				346C8EEF229F40F800DED862 /* SelectWalletPopUp.swift */,
+			);
+			path = AddWallet;
+			sourceTree = "<group>";
+		};
+		346C8EF0229F40F800DED862 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EF1229F40F800DED862 /* WalletMainViewController.swift */,
+				346C8EF2229F40F800DED862 /* BackupMnemonicAlert.swift */,
+				346C8EF3229F40F800DED862 /* WalletWelcomeViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		346C8EF4229F40F800DED862 /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EF5229F40F800DED862 /* SelectedTransacrionAmmount.swift */,
+				346C8EF6229F40F800DED862 /* DoneTransactionViewController.swift */,
+				346C8EF7229F40F800DED862 /* EnterTransactionAmmountViewController.swift */,
+				346C8EF8229F40F800DED862 /* Ether */,
+				346C8EFC229F40F800DED862 /* UTXO */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		346C8EF8229F40F800DED862 /* Ether */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EF9229F40F800DED862 /* EtherTxInfo.swift */,
+				346C8EFA229F40F800DED862 /* SendEthTransactionDetailViewController.swift */,
+				346C8EFB229F40F800DED862 /* ConfirmEthereumTransactionDetailViewController.swift */,
+			);
+			path = Ether;
+			sourceTree = "<group>";
+		};
+		346C8EFC229F40F800DED862 /* UTXO */ = {
+			isa = PBXGroup;
+			children = (
+				346C8EFD229F40F800DED862 /* ConfirmUtxoTxDetailViewController.swift */,
+				346C8EFE229F40F800DED862 /* UtxoResponce+UnspendTransaction.swift */,
+				346C8EFF229F40F800DED862 /* UtxoTxInfo.swift */,
+				346C8F00229F40F800DED862 /* SendUtxoTransactionViewController.swift */,
+			);
+			path = UTXO;
+			sourceTree = "<group>";
+		};
+		346C8F01229F40F800DED862 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				346C8F02229F40F800DED862 /* WalletInteractor */,
+				346C8F05229F40F800DED862 /* WalletBlockchainWrapperInteractor */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		346C8F02229F40F800DED862 /* WalletInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				346C8F03229F40F800DED862 /* WalletInteractorInterface.swift */,
+				346C8F04229F40F800DED862 /* WalletInteractor.swift */,
+			);
+			path = WalletInteractor;
+			sourceTree = "<group>";
+		};
+		346C8F05229F40F800DED862 /* WalletBlockchainWrapperInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				346C8F06229F40F800DED862 /* WalletBlockchainWrapperInteractor.swift */,
+				346C8F07229F40F800DED862 /* WalletBlockchainWrapperInteractorInterface.swift */,
+			);
+			path = WalletBlockchainWrapperInteractor;
+			sourceTree = "<group>";
+		};
+		346C8F08229F40F800DED862 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				346C8F09229F40F800DED862 /* WalletRouter.swift */,
+				346C8F0A229F40F800DED862 /* WalletRouterInterface.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		349AA4942122F0F600E9256F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34B27A4D2133712200527F15 /* SelectAccoutViewController.swift */,
+				340ABFFF219B0A6B00DEAFF1 /* FullSecuredViewController.swift */,
+				349AA49A2122F15000E9256F /* SecureAccountViewController.swift */,
+				344826C621218C9C00C19EB3 /* SettingsViewController.swift */,
+				34416804212F6F33008B8A91 /* SettingsCurrencyViewController.swift */,
+				34B27A2F21302E2300527F15 /* SettingsLanguageViewController.swift */,
+				34115E062134AEDA00A54B7E /* SettingsSecurityViewController.swift */,
+				34ECE48B2136F10A008D9696 /* ConfirmLogOutViewController.swift */,
+				34ECE48F21374247008D9696 /* SettingsEditUserViewController.swift */,
+				340D079A22C3C18700F49FB5 /* DeleteAccountViewController.swift */,
+				34C0AD5822C665D800B5F8FC /* DeleteAccountAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		349AA4962122F11900E9256F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				349AA49E2122F48900E9256F /* SettingsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		734BB9C102E6709C3C2DC5E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5A9F9A18EC49B38D82905 /* Pods-Essentia.debug.xcconfig */,
+				8A4CA8F6982BE5CA1B1027D8 /* Pods-Essentia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95AC5A4B6668826F51D64E2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5095476FCA3B42E7A63E40A /* Pods-Essentia.debug.xcconfig */,
+				CF82FC3EA722652B63E7C7EB /* Pods-Essentia.release.xcconfig */,
+			);
+			name = Pods;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E07D01DF24EE5B7100577FF5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E07D01E024EE5BB900577FF5 /* DecibelSDK.xcodeproj */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E07D01E124EE5BB900577FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07D01E624EE5BB900577FF5 /* DecibelSDK.framework */,
+				E07D01E824EE5BB900577FF5 /* DecibelSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89F81E827245E426E0DF11A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346C8F30229F41EF00DED862 /* libEssCore.a */,
+				345747BF21F5BB95006E2EAB /* EssUI.framework */,
+				345747AB21F50DD6006E2EAB /* libEssWallet.a */,
+				34F6DCCF21F3BD1A00935A23 /* libEssStore.a */,
+				347DB23421ED55C8004420FA /* EssResources.framework */,
+				343C84F321D50617000FEE9A /* libEssModel.a */,
+				34B1436D21D3C9C700EC06AE /* libEssCore.a */,
+				A1ADBFCB3F2F751F6B1420DB /* Pods_Essentia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3401AF2120F7C2CA006DEF49 /* Essentia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3401AF3420F7C2CD006DEF49 /* Build configuration list for PBXNativeTarget "Essentia" */;
+			buildPhases = (
+				36E34632A9323FE2E3844857 /* [CP] Check Pods Manifest.lock */,
+				3401AF1E20F7C2CA006DEF49 /* Sources */,
+				3401AF1F20F7C2CA006DEF49 /* Frameworks */,
+				3401AF2020F7C2CA006DEF49 /* Resources */,
+				3401AF5F20F81011006DEF49 /* Swift Lint */,
+				4EF57AFD2BA3AAA086D8961D /* [CP] Embed Pods Frameworks */,
+				3426963321ED5BB40063E2D8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Essentia;
+			productName = Essentia;
+			productReference = 3401AF2220F7C2CA006DEF49 /* Essentia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3401AFB021012D93006DEF49 /* EssentiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3401AFBA21012D93006DEF49 /* Build configuration list for PBXNativeTarget "EssentiaTests" */;
+			buildPhases = (
+				3401AFAD21012D93006DEF49 /* Sources */,
+				3401AFAE21012D93006DEF49 /* Frameworks */,
+				3401AFAF21012D93006DEF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3401AFB721012D93006DEF49 /* PBXTargetDependency */,
+			);
+			name = EssentiaTests;
+			productName = EssentiaTests;
+			productReference = 3401AFB121012D93006DEF49 /* EssentiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3401AF1A20F7C2CA006DEF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Essentia-One";
+				TargetAttributes = {
+					3401AF2120F7C2CA006DEF49 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3401AFB021012D93006DEF49 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 3401AF2120F7C2CA006DEF49;
+					};
+				};
+			};
+			buildConfigurationList = 3401AF1D20F7C2CA006DEF49 /* Build configuration list for PBXProject "Essentia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+				"zh-Hant",
+			);
+			mainGroup = 3401AF1920F7C2CA006DEF49;
+			productRefGroup = 3401AF2320F7C2CA006DEF49 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E07D01E124EE5BB900577FF5 /* Products */;
+					ProjectRef = E07D01E024EE5BB900577FF5 /* DecibelSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3401AF2120F7C2CA006DEF49 /* Essentia */,
+				3401AFB021012D93006DEF49 /* EssentiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E07D01E624EE5BB900577FF5 /* DecibelSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DecibelSDK.framework;
+			remoteRef = E07D01E524EE5BB900577FF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E07D01E824EE5BB900577FF5 /* DecibelSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DecibelSDKTests.xctest;
+			remoteRef = E07D01E724EE5BB900577FF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3401AF2020F7C2CA006DEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3401AF3020F7C2CD006DEF49 /* LaunchScreen.storyboard in Resources */,
+				3401AFC62101E8B1006DEF49 /* MnemonicPhraseCopyViewController.xib in Resources */,
+				3401AF2D20F7C2CD006DEF49 /* Assets.xcassets in Resources */,
+				3401AFE321062B9A006DEF49 /* MnemonicPhraseConfirmViewController.xib in Resources */,
+				3448265B21189B8500C19EB3 /* SeedCopyViewController.xib in Resources */,
+				34B612DD220DAC1A006EA6B3 /* GoogleService-Info.plist in Resources */,
+				3448266E211B362A00C19EB3 /* LaunchpadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3401AFAF21012D93006DEF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3401AF5F20F81011006DEF49 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Swift Lint";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		36E34632A9323FE2E3844857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Essentia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF57AFD2BA3AAA086D8961D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Essentia/Pods-Essentia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Essentia/Pods-Essentia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Essentia/Pods-Essentia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3401AF1E20F7C2CA006DEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C8F2C229F40F900DED862 /* WalletBlockchainWrapperInteractor.swift in Sources */,
+				346C8F0F229F40F900DED862 /* WalletOptionsViewController.swift in Sources */,
+				346C8F0D229F40F900DED862 /* SelectAccountToPurchaseViewController.swift in Sources */,
+				349AA49B2122F15000E9256F /* SecureAccountViewController.swift in Sources */,
+				3448266C211B362000C19EB3 /* LaunchpadViewController.swift in Sources */,
+				34C19BC82226E46500B02203 /* ImportFromOtherWallets.swift in Sources */,
+				344826522114B21B00C19EB3 /* PhraseEnteringState.swift in Sources */,
+				343122672124AD0C009E4A7A /* KeyStoreWarningViewController.swift in Sources */,
+				346C8F10229F40F900DED862 /* DeleteWalletWarningViewController.swift in Sources */,
+				3401AF9620FFF5F1006DEF49 /* WarningViewContrller.swift in Sources */,
+				346C8F19229F40F900DED862 /* WalletDoneImportingAlert.swift in Sources */,
+				34AC4DF021494203001C17D8 /* KeystoreSavedAlert.swift in Sources */,
+				346C8F24229F40F900DED862 /* SendEthTransactionDetailViewController.swift in Sources */,
+				3401AFA42100008B006DEF49 /* BackupDesingInterface.swift in Sources */,
+				3401AF5B20F80B41006DEF49 /* Application.swift in Sources */,
+				3401AF8E20FE45B2006DEF49 /* ApplicationDependenceProvider.swift in Sources */,
+				3401AFF3210A0AC6006DEF49 /* AuthRouter.swift in Sources */,
+				3401AF5920F80B21006DEF49 /* main.swift in Sources */,
+				344826C721218C9C00C19EB3 /* SettingsViewController.swift in Sources */,
+				34B27A4E2133712200527F15 /* SelectAccoutViewController.swift in Sources */,
+				346C8F15229F40F900DED862 /* WalletCreateNewAssetViewController.swift in Sources */,
+				34482682211C3FB500C19EB3 /* LaunchpadCollectionViewAdapter.swift in Sources */,
+				340AC000219B0A6B00DEAFF1 /* FullSecuredViewController.swift in Sources */,
+				34ECE49021374247008D9696 /* SettingsEditUserViewController.swift in Sources */,
+				346C8F1E229F40F900DED862 /* BackupMnemonicAlert.swift in Sources */,
+				346C8F26229F40F900DED862 /* ConfirmUtxoTxDetailViewController.swift in Sources */,
+				346C8F12229F40F900DED862 /* WalletDetailViewController.swift in Sources */,
+				34C0AD5922C665D800B5F8FC /* DeleteAccountAlertViewController.swift in Sources */,
+				34416805212F6F33008B8A91 /* SettingsCurrencyViewController.swift in Sources */,
+				3401AF5520F807FB006DEF49 /* WelcomeViewController.swift in Sources */,
+				340D079B22C3C18700F49FB5 /* DeleteAccountViewController.swift in Sources */,
+				346C8F1C229F40F900DED862 /* SelectWalletPopUp.swift in Sources */,
+				3401AFCC21022B1F006DEF49 /* CenteringCollectionViewAdapter.swift in Sources */,
+				346C8F20229F40F900DED862 /* SelectedTransacrionAmmount.swift in Sources */,
+				346C8F1B229F40F900DED862 /* FailImportingAlert.swift in Sources */,
+				34C0911E223808DA000FAF5C /* CenteringLayout.swift in Sources */,
+				3401AFC52101E8B1006DEF49 /* MnemonicPhraseCopyViewController.swift in Sources */,
+				346C8F0C229F40F900DED862 /* ConfirmPurchaseViewController.swift in Sources */,
+				3401AFE121062B91006DEF49 /* MnemonicPhraseConfirmViewController.swift in Sources */,
+				34ECE49821387A5D008D9696 /* MnemonicLoginController.swift in Sources */,
+				346C8F0B229F40F900DED862 /* SelectPurchaseWalletViewController.swift in Sources */,
+				3401AF2620F7C2CA006DEF49 /* AppDelegate.swift in Sources */,
+				344167F7212EC235008B8A91 /* LoginInteractor.swift in Sources */,
+				346C8F2A229F40F900DED862 /* WalletInteractorInterface.swift in Sources */,
+				346C8F17229F40F900DED862 /* WalletNewAssetViewController.swift in Sources */,
+				346C8F1F229F40F900DED862 /* WalletWelcomeViewController.swift in Sources */,
+				34482678211B9BAC00C19EB3 /* TabBarController.swift in Sources */,
+				346C8F1D229F40F900DED862 /* WalletMainViewController.swift in Sources */,
+				34B27A3021302E2300527F15 /* SettingsLanguageViewController.swift in Sources */,
+				346C8F2D229F40F900DED862 /* WalletBlockchainWrapperInteractorInterface.swift in Sources */,
+				3448265921189B7900C19EB3 /* SeedCopyViewController.swift in Sources */,
+				346C8F23229F40F900DED862 /* EtherTxInfo.swift in Sources */,
+				3401AFF1210A0885006DEF49 /* AuthRouterInterface.swift in Sources */,
+				34115E072134AEDA00A54B7E /* SettingsSecurityViewController.swift in Sources */,
+				3401AFA221000078006DEF49 /* BackupDesign.swift in Sources */,
+				34482670211B366400C19EB3 /* LaunchpadItem.swift in Sources */,
+				344826542115EFA700C19EB3 /* PhraseEnteringControllerDelegate.swift in Sources */,
+				346C8F16229F40F900DED862 /* WalletImportAssetViewController.swift in Sources */,
+				34115E1321368E9900A54B7E /* NotificationsPlaceholderViewController.swift in Sources */,
+				346C8F22229F40F900DED862 /* EnterTransactionAmmountViewController.swift in Sources */,
+				346C8F18229F40F900DED862 /* WalletSelectImportAssetViewController.swift in Sources */,
+				3401AFEE2109FD4F006DEF49 /* MnemonicConfirmEnteringController.swift in Sources */,
+				346C8F29229F40F900DED862 /* SendUtxoTransactionViewController.swift in Sources */,
+				346C8F21229F40F900DED862 /* DoneTransactionViewController.swift in Sources */,
+				346C8F28229F40F900DED862 /* UtxoTxInfo.swift in Sources */,
+				346C8F2F229F40F900DED862 /* WalletRouterInterface.swift in Sources */,
+				344167F9212EC246008B8A91 /* LoginInteractorInterface.swift in Sources */,
+				346C8F27229F40F900DED862 /* UtxoResponce+UnspendTransaction.swift in Sources */,
+				346C8F0E229F40F900DED862 /* SelectPurchaseViewController.swift in Sources */,
+				346C8F1A229F40F900DED862 /* WalletDoneGeneratingAlert.swift in Sources */,
+				346C8F25229F40F900DED862 /* ConfirmEthereumTransactionDetailViewController.swift in Sources */,
+				349AA49F2122F48900E9256F /* SettingsRouter.swift in Sources */,
+				346C8F13229F40F900DED862 /* WalletEnterReceiveAmmount.swift in Sources */,
+				341A527122A717BE000A629B /* DonePurchaseViewController.swift in Sources */,
+				34C19BC62224228800B02203 /* ImportAccountViewController.swift in Sources */,
+				34AA4E922136ABDD004C25ED /* SelectBackupTypeViewConroller.swift in Sources */,
+				3401AFE82107705B006DEF49 /* CurrentWordIndicatorCollectionViewAdapter.swift in Sources */,
+				3401AFE621064159006DEF49 /* PhraseConfirmCollectionViewAdapter.swift in Sources */,
+				346C8F2E229F40F900DED862 /* WalletRouter.swift in Sources */,
+				346C8F11229F40F900DED862 /* WalletDeletedWarningViewController.swift in Sources */,
+				34F2884421CCD1BF0098E4CF /* LoginPasswordViewController.swift in Sources */,
+				346C8F14229F40F900DED862 /* WallerReceiveViewController.swift in Sources */,
+				3448265E2119A10600C19EB3 /* KeyStorePasswordViewController.swift in Sources */,
+				34ECE48C2136F10A008D9696 /* ConfirmLogOutViewController.swift in Sources */,
+				346C8F2B229F40F900DED862 /* WalletInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3401AFAD21012D93006DEF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3401AFB721012D93006DEF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3401AF2120F7C2CA006DEF49 /* Essentia */;
+			targetProxy = 3401AFB621012D93006DEF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3401AF2E20F7C2CD006DEF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3401AF2F20F7C2CD006DEF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3401AF3220F7C2CD006DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3401AF3320F7C2CD006DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3401AF3520F7C2CD006DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5095476FCA3B42E7A63E40A /* Pods-Essentia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Essentia/Essentia.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 123;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RLTB3DP362;
+				INFOPLIST_FILE = Essentia/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-expression-type-checking=250 -Xfrontend -warn-long-function-bodies=250 -Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = essentia.Essentia.test.decibel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3401AF3620F7C2CD006DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF82FC3EA722652B63E7C7EB /* Pods-Essentia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Essentia/Essentia.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 123;
+				DEVELOPMENT_TEAM = RLTB3DP362;
+				INFOPLIST_FILE = Essentia/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-expression-type-checking=250 -Xfrontend -warn-long-function-bodies=250 -Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = essentia.Essentia.test.decibel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		3401AFB821012D93006DEF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X24R65DM8E;
+				INFOPLIST_FILE = EssentiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Essentia.EssentiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Essentia.app/Essentia";
+			};
+			name = Debug;
+		};
+		3401AFB921012D93006DEF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X24R65DM8E;
+				INFOPLIST_FILE = EssentiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Essentia.EssentiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Essentia.app/Essentia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3401AF1D20F7C2CA006DEF49 /* Build configuration list for PBXProject "Essentia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3401AF3220F7C2CD006DEF49 /* Debug */,
+				3401AF3320F7C2CD006DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3401AF3420F7C2CD006DEF49 /* Build configuration list for PBXNativeTarget "Essentia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3401AF3520F7C2CD006DEF49 /* Debug */,
+				3401AF3620F7C2CD006DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3401AFBA21012D93006DEF49 /* Build configuration list for PBXNativeTarget "EssentiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3401AFB821012D93006DEF49 /* Debug */,
+				3401AFB921012D93006DEF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3401AF1A20F7C2CA006DEF49 /* Project object */;
+}

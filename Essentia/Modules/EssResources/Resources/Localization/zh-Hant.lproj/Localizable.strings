@@ -1,0 +1,370 @@
+/*
+ Localizable.strings
+ Essentia
+ 
+ Created by Pavlo Boiko on 16.07.18.
+ Copyright © 2018 Essentia-One. All rights reserved.
+ */
+
+"Back" = "返回";
+
+"Welcome.Restore" = "IMPORT";
+"Welcome.Title1" = "欢迎来到";
+"Welcome.Title2" = "Essentia";
+"Welcome.Description" = "加入我们的框架，在这里您所有的dApp都互相关联并且随时可用。Essentia是您触手可及的去中心化生活。";
+"Welcome.Enter" = "开始";
+"Welcome.Tersm1" = "继续代表您同意我们的";
+"Welcome.Tersm2" = "服务条款";
+
+"Warning.Title" = "是否有其他人在你身后？";
+"Warning.Description" = "确保没有人在看你——远离窗户和镜头；不要做任何截图——它们很容易被盗；检查是否有人在窃窃私语。";
+"Warning.Done" = "我在一个安全的环境";
+
+"WarningKeystore.Title" = "保管好您的资金做好备份";
+"WarningKeystore.Skip" = "跳过";
+"WarningKeystore.Paragraph1.Title" = "安全地保存它";
+"WarningKeystore.Paragraph1.Description" = "如果您丢失了备份方法，则无法再次访问您的帐户！";
+"WarningKeystore.Paragraph2.Title" = "不要把它和任何人分享";
+"WarningKeystore.Paragraph2.Description" = "分享是关心，但对于您的备份方法来说则不是！";
+"WarningKeystore.Paragraph3.Title" = "备份您的备份！";
+"WarningKeystore.Paragraph3.Description" = "您的帐户很有价值，做多几个备份并确保安全地保管好！";
+"WarningKeystore.Save" = "保存秘钥库文件";
+
+"MnemonicPhrase.Title" = "助记词";
+"MnemonicPhrase.Description" = "请保存您的助记词。它将让您登录到您的Essence";
+"MnemonicLogin.Description" = "输入您的12个助记词以登录Essentia";
+"MnemonicPhrase.Copy" = "复制";
+"MnemonicPhrase.Copied" = "已复制";
+"MnemonicPhrase.Continue" = "继续";
+
+"MnemonicPhraseConfirm.Title" = "助记词确认";
+"MnemonicPhraseConfirm.Description" = "输入以下词语以完成备份过程。";
+"MnemonicPhraseConfirm.CurrentWord" = "第-个词";
+
+"SeedCopy.Title" = "种子";
+"SeedCopy.Description" = "在下面您将看到您的种子。请妥善保存，因为您可以使用它来访问您的Essence";
+"SeedCopy.Copy" = "复制";
+"SeedCopy.Copied" = "已复制";
+"SeedCopy.Continue" = "继续";
+"SeedConfirm.Description" = "粘贴您的种子以访问Essentia";
+"InfoAlert.Ok" = "OK";
+
+"Keystore.Title" = "密码";
+"Keystore.Description" = "创建一个安全的密码以登录您的Essence——安全第一！";
+"Keystore.PasswordField.Title" = "密码";
+"Keystore.PasswordField.Repeat" = "重复密码";
+"Keystore.PasswordField.Placeholder" = "必填";
+"Keystore.PasswordField.Description" = "最少8个字符";
+"Keystore.PasswordField.Status.Good" = "很好";
+"Keystore.Continue" = "继续";
+
+"KeyStoreSaved.Title" = "您的密钥库文件已保存";
+"KeyStoreSaved.Description" = "现在您可以通过密钥库文件登录Essentia";
+
+"TabBar.Launchpad" = "启动面板";
+"TabBar.Wallet" = "钱包";
+"TabBar.Notifications" = "通知";
+"TabBar.Settings" = "设置";
+
+"Settings.Title" = "设置";
+"Settings.AccountStrength.Title" = "帐户安全";
+"Settings.AccountStrength.Description" = "备份所有三个登录选项以从其他设备访问Essentia，并确保安全存储您的保存文件";
+"Settings.AccountStrength.SecureButton" = "保障账户安全";
+"Settings.AccountStrength.Push" = "点击";
+"Settings.CurrentAccountTitle" = "帐户名称";
+"Settings.CurrentAccountTitle.Default" = "Essentia帐户";
+"Settings.Title.Language" = "语言";
+"Settings.Title.General" = "总体";
+"Settings.Title.Security" = "安全性";
+"Settings.Title.Community" = "社区";
+"Settings.Title.Application" = "应用程序";
+"Settings.Currency" = "货币";
+"Settings.Language" = "语言";
+"Settings.Security" = "安全性";
+"Settings.DarkTheme" = "深色主题";
+"Settings.Feedback" = "反馈";
+"Settings.Switch" = "切换帐户";
+"Settings.LogOut" = "注销";
+"Settings.Delete" = "Delete Account";
+
+"DeleteAccountAlert.Title" = "Delete Account";
+"DeleteAccountAlert.Description" = "Please verify you want to delete your account, all your data and assets will be removed from current device";
+"DeleteAccountAlert.LeftButton" = "DELETE";
+"DeleteAccountAlert.RightButton" = "CANCEL";
+
+"Settings.Secure.Back" = "设置";
+"Settings.Secure.Title" = "采取这些步骤来增强您的安全性";
+"Settings.Secure.Prefix.Save" = "保存";
+"Settings.Secure.Prefix.Show" = "显示";
+"Settings.Secure.Mnemonic.Title" = "助记词";
+"Settings.Secure.Mnemonic.Description" = "通常这里是12个词";
+"Settings.Secure.Seed.Title" = "种子";
+"Settings.Secure.Seed.Description" = "是您唯一私钥的加密版本。";
+"Settings.Secure.KeyStore.Title" = "密钥库文件";
+"Settings.Secure.KeyStore.Description" = "下载您的密钥库文件以访问Essentia";
+"Settings.Secure.Description" = "通过完成这些步骤，您将使您的帐户更加安全";
+
+"Settings.Currency.Title" = "货币";
+"Settings.Language.Title" = "语言";
+
+"Settings.Accounts.Title" = "帐户";
+"Settings.Accounts.Edit" = "Edit";
+"Settings.Accounts.Cancel" = "Cancel";
+"Settings.Accounts.CreateNew" = "创建帐户";
+
+"Settings.ImportWeb.Title" = "Import from Essentia Web";
+
+"Settings.ImportAccount.Title" = "Import Account";
+"Settings.ImportAccount.Description" = "Choose your...";
+"Settings.ImportAccount.EssentiaApp" = "Essentia App";
+"Settings.ImportAccount.EssentiaWeb" = "Essentia Web";
+"Settings.ImportAccount.Others" = "Other wallets";
+
+"Settings.ImportOther.Title" = "Other wallets";
+
+"Settings.Security.Title" = "安全性";
+"Settings.Security.SectionHeader" = "备份文件";
+"Settings.Security.Mnemonic.Title" = "助记词";
+"Settings.Security.Mnemonic.Detail" = "显示";
+"Settings.Security.Seed.Title" = "种子";
+"Settings.Security.Seed.Detail" = "显示";
+"Settings.Security.Keystore.Title" = "密钥库文件";
+"Settings.Security.Keystore.Detail" = "下载";
+"Settings.Security.LoginMethod.Title" = "登录方法";
+"Settings.Security.LoginMethod.Detail.None" = "无";
+
+"Currency.usd" = "美元";
+"Currency.eur" = "欧元";
+"Currency.krw" = "韩元";
+"Currency.cny" = "人民币";
+
+"LocalizationLanguage.English" = "英语";
+"LocalizationLanguage.Korean" = "韩语";
+"LocalizationLanguage.Chinese" = "中文";
+
+"BackupType.Mnemonic" = "助记符";
+"BackupType.Seed" = "种子";
+"BackupType.Keystore" = "密钥库";
+"BackupType.None" = "无";
+
+"LogOutAction.Title" = "您确定吗？";
+"LogOutAction.Description" = "我们注意到您尚未备份您的帐户。如果您想再次访问此帐户，请备份";
+"LogOutAction.LeftButton" = "备份";
+"LogOutAction.RightButton" = "注销";
+
+"MnemonicBackupWarning.Title" = "您需要备份您的助记词";
+"MnemonicBackupWarning.Description" = "要将此登录方法用作主要方法，您需要对其进行备份";
+"MnemonicBackupWarning.LeftButton" = "取消";
+"MnemonicBackupWarning.RightButton" = "备份";
+
+"Restore.Title" = "恢复";
+"Restore.Description" = "选择您偏好的登录方法以访问您的Essentia帐户";
+"Restore.Mnemonic" = "助记词";
+"Restore.Seed" = "种子";
+"Restore.Keystore" = "密钥库文件";
+
+"EditAccount.Title" = "帐户名称";
+"EditAccount.Done" = "完成";
+"EditAccount.Back" = "设置";
+"EditAccount.Placeholder" = "帐户...";
+"EditAccount.Description" = "为您的帐户创建一个名称";
+
+// MARK: - Wallet
+"Wallet.Welcome.Continue" = "继续";
+
+"Wallet.Title" = "钱包";
+"Wallet.Empty.Description" = "尚未添加货币";
+"Wallet.Empty.Add" = "添加";
+"Wallet.Main.Balance.Title" = "总余额";
+"Wallet.Main.Coins.Essntia" = "Essentia资产";
+"Wallet.Main.Coins.Imported" = "导入资产";
+"Wallet.Main.Segment.First" = "货币";
+"Wallet.Main.Segment.Segment" = "代币";
+
+"Wallet.NewAsset.Title" = "添加钱包";
+"Wallet.NewAsset.Add.Title" = "创建钱包";
+"Wallet.NewAsset.Import.Title" = "导入钱包";
+
+"Wallet.NewAsset.Token.SelectWallet.Title" = "ETH钱包";
+"Wallet.NewAsset.Token.SelectWallet.Subtitle" = "带代币的钱包";
+
+"Wallet.ImportAsset.Title" = "导入钱包";
+"Wallet.Bitcoin" = "比特币";
+"Wallet.Ethereum" = "以太坊";
+"Wallet.Litecoin" = "莱特币";
+"Wallet.BitcoinCash" = "比特现金";
+"Wallet.Dash" = "Dash";
+
+"Wallet.Bitcoin.Short" = "BTC";
+"Wallet.Ethereum.Short" = "ETH";
+"Wallet.Litecoin.Short" = "LTC";
+"Wallet.BitcoinCash.Short" = "BCH";
+"Wallet.Dash.Short" = "DASH";
+
+"Wallet.Import" = "导入";
+"Wallet.Import.Description" = "命名您的钱包并输入您的私钥——这就是它的全部！";
+"Wallet.Import.PrivateKey" = "私钥";
+"Wallet.Import.Name" = "名称";
+"Wallet.Import.ImportButton" = "导入";
+
+"Wallet.DoneImporting.Title" = "做得很好！";
+"Wallet.DoneImporting.Description" = "钱包已成功导入！ 享受Essentia钱包的自由！";
+"Wallet.DoneImporting.Button" = "返回到钱包";
+
+"Wallet.DoneGenerating.Title" = "做得很好！";
+"Wallet.DoneGenerating.Description" = "您的钱包已成功添加。";
+"Wallet.DoneGenerating.Button" = "返回到钱包";
+
+"Wallet.FailImporing.Title" = "Oops哎呀";
+"Wallet.FailImporing.Description" = "似乎出了点问题。别担心，请仔细检查您输入的信息，然后重试！ 我们保证不会花很长时间。";
+"Wallet.FailImporing.LeftButton" = "取消";
+"Wallet.FailImporing.RightButton" = "再试一次";
+
+"Wallet.CreateNewAsset.Title" = "创建钱包";
+"Wallet.CreateNewAsset.Done" = "完成";
+"Wallet.CreateNewAsset.Switch.Coins" = "货币";
+"Wallet.CreateNewAsset.Switch.Tokens" = "代币";
+"Wallet.CreateNewAsset.SearchPlaceholder" = "搜索";
+
+///////////
+
+"Wallet.AddTokens.SelectRoot.Title" = "选择钱包";
+"Wallet.AddTokens.SelectRoot.Description" = "选择您想要添加代币的钱包";
+
+"Wallet.Detail.Balance" = "余额";
+"Wallet.Detail.Price" = "价格：";
+"Wallet.Detail.Send" = "发送";
+"Wallet.Detail.Exchange" = "兑换";
+"Wallet.Detail.Receive" = "接收";
+"Wallet.Detail.History.Title" = "交易历史记录";
+"Wallet.Detail.History.ReceivedFrom" = "从...收到";
+"Wallet.Detail.History.Exchanged" = "兑换为";
+"Wallet.Detail.History.SendTo" = "发送到";
+
+"Wallet.TransactionInfo.Title" = "交易信息";
+"Wallet.TransactionInfo.ReceivedFrom" = "从...收到";
+"Wallet.TransactionInfo.Status" = "状态";
+"Wallet.TransactionInfo.ReceivedTime" = "接收的时间";
+"Wallet.TransactionInfo.ReceivedRate" = "接收的汇率";
+"Wallet.TransactionInfo.Confirmations" = "确认";
+"Wallet.TransactionInfo.Fee" = "费用";
+"Wallet.TransactionInfo.Data" = "数据";
+"Wallet.TransactionInfo.More" = "更多";
+"Wallet.TransactionInfo.TransactionId" = "交易ID";
+"Wallet.TransactionInfo.GoToBlockchain" = "转到区块链";
+"Wallet.TransactionInfo.Close" = "关闭";
+
+"Wallet.TransactionType.send" = "发送到";
+"Wallet.TransactionType.recive" = "从...收到";
+"Wallet.TransactionType.exchange" = "兑换为";
+
+"Wallet.Send.Title" = "发送";
+"Wallet.Send.Available" = "可用的";
+"Wallet.Send.Continue" = "继续";
+"Wallet.Send.Amount" = "数量";
+"Wallet.Send.To" = "到";
+"Wallet.Send.Required" = "必填";
+"Wallet.Send.Data" = "数据";
+"Wallet.Send.Optional" = "可选";
+"Wallet.Send.Fee" = "费用";
+"Wallet.Send.InputFee" = "输入费用";
+"Wallet.Send.Slow" = "慢";
+"Wallet.Send.Normal" = "正常";
+"Wallet.Send.Fast" = "快";
+"Wallet.Send.Mins" = "分钟";
+"Wallet.Send.hours" = "小时";
+"Wallet.Send.TransactionTime" = "交易时间";
+"Wallet.Send.GenerateTransaction" = "生成交易";
+
+"Wallet.Send.Confirm.Title" = "确认交易";
+"Wallet.Send.Confirm.ToAddress" = "到以下地址：";
+"Wallet.Send.Confirm.Amount" = "数量";
+"Wallet.Send.Confirm.Fee" = "费用";
+"Wallet.Send.Confirm.Time" = "交易时间";
+"Wallet.Send.Confirm.Cancel" = "取消";
+"Wallet.Send.Confirm.Send" = "发送";
+
+"Wallet.Receive.Title" = "接收";
+"Wallet.Receive.Wallet" = "钱包";
+"Wallet.Receive.Copy" = "复制";
+"Wallet.Receive.Copied" = "私钥已复制";
+"Wallet.Receive.Request" = "要求具体数量";
+
+"Wallet.Receive.Enter.Done" = "完成";
+"Wallet.Receive.Title" = "接收";
+"Wallet.Receive.Continue" = "继续";
+
+"Launchpad.Placeholder.Title" = "惊人的功能即将推出！";
+"Launchpad.Placeholder.Swipe" = "向上滑动";
+
+"Wallet.Options.Title" = "选项";
+"Wallet.Options.Rename" = "重命名钱包";
+"Wallet.Options.Export" = "导出钱包";
+"Wallet.Options.Export.PK" = "私钥";
+"Wallet.Options.Export.Copied" = "地址已复制";
+"Wallet.Options.Delete" = "删除钱包";
+"Wallet.Options.Delete.Warning.Title" = "您确定吗？";
+"Wallet.Options.Delete.Warning.Description1" = "您真的想要从";
+"Wallet.Options.Delete.Warning.Description2" = "钱包列表中删除吗？";
+"Wallet.Options.Delete.Warning.Cancel" = "取消";
+"Wallet.Options.Delete.Warning.Delete" = "删除";
+
+"Launchpad.Placeholder.Detail.Title" = "功能";
+"Launchpad.Placeholder.Detail.Feature0.Title" = "自动化交易";
+"Launchpad.Placeholder.Detail.Feature0.Detail" = "节省时间，并且永远不会错过任何交易！";
+"Launchpad.Placeholder.Detail.Feature1.Title" = "交易所";
+"Launchpad.Placeholder.Detail.Feature1.Detail" = "安全轻松地兑换您的加密货币！";
+"Launchpad.Placeholder.Detail.Feature2.Title" = "直观的交易体验";
+"Launchpad.Placeholder.Detail.Feature2.Detail" = "来，看，交易！ 不再有复杂的界面！";
+"Launchpad.Placeholder.Detail.Feature3.Title" = "Essentia加密货币管理器";
+"Launchpad.Placeholder.Detail.Feature3.Detail" = "使用Essentia的本地加密货币管理器来交流和发送加密货币！";
+"Launchpad.Placeholder.Detail.Feature4.Title" = "离线交易";
+"Launchpad.Placeholder.Detail.Feature4.Detail" = "离线进行您的交易！";
+"Launchpad.Placeholder.Detail.Feature5.Title" = "DApp商店";
+"Launchpad.Placeholder.Detail.Feature5.Detail" = "个性化管理在Essentia中集成的各种dApp！";
+"Launchpad.Placeholder.Detail.Feature6.Title" = "通知";
+"Launchpad.Placeholder.Detail.Feature6.Detail" = "如果价格发生变化或收到和发送资产时会收到通知！";
+"Launchpad.Placeholder.Detail.Feature7.Title" = "新闻";
+"Launchpad.Placeholder.Detail.Feature7.Detail" = "通过Essentia了解加密领域中的所有新闻！";
+"Launchpad.Placeholder.Detail.Feature8.Title" = "市场分析";
+"Launchpad.Placeholder.Detail.Feature8.Detail" = "使用Essentia的价格分析工具聪明地交易！";
+"Launchpad.Placeholder.Detail.Feature9.Title" = "Jarvis";
+"Launchpad.Placeholder.Detail.Feature9.Detail" = "使用个人AI助手优化您的加密体验 - Jarvis！";
+"Launchpad.Placeholder.Detail.Feature10.Title" = "自动同步";
+"Launchpad.Placeholder.Detail.Feature10.Detail" = "连接钱包和交易所以同步您的余额和交易历史记录！";
+
+"Settings.FullSecured.Title" = "全面保护好了！";
+"Settings.FullSecured.Description" = "备份所有三个登录选项以从其他设备访问Essentia，并确保安全存储您的保存文件。";
+"Settings.FullSecured.Continue" = "继续";
+
+"Notification.Placeholder.Description" = "我们现在正在努力完成，很快你将收到通知";
+
+"Wallet.Onbording1.Title" = "超级安全！";
+"Wallet.Onbording1.Detail" = "利用区块链的加密技术来保护您的资产安全";
+"Wallet.Onbording2.Title" = "超级钱包！";
+"Wallet.Onbording2.Detail" = "通过任何设备的一个钱包即可访问您的所有数字资产";
+"Wallet.Onbording3.Title" = "超级快速！";
+"Wallet.Onbording3.Detail" = "不要浪费您宝贵的时间，把所有困难的工作留给我们！";
+
+"Wallet.Transaction.Send.Done.Title" = "做得很好！";
+"Wallet.Transaction.Send.Done.Description" = "您的交易已发送。很快您就可以在交易历史记录中看到它。";
+"Wallet.Transaction.Send.Done.Continue" = "回到钱包";
+
+// MARK: - Paid Accounts
+"PaidAccount.SelectPurchase.Restore" = "Restore";
+"PaidAccount.SelectPurchase.Title" = "Get Accounts";
+"PaidAccount.SelectPurchase.Info" = "Join the framework where all your dApps are interconnected and available any minute.";
+"PaidAccount.SelectPurchase.PayForOne" = "GET 1 ACCOUNT";
+"PaidAccount.SelectPurchase.PayForUnlimited" = "GET UNLIMITED ACCOUNTS";
+
+"PaidAccount.SelectWallet.Title" = "Accounts";
+
+"PaidAccount.Confirm.Title" = "Confirm Pay";
+"PaidAccount.Confirm.From" = "From";
+"PaidAccount.Confirm.To" = "To";
+"PaidAccount.Confirm.AmmountToSend" = "Ammount to send";
+"PaidAccount.Confirm.Cancel" = "CANCEL";
+"PaidAccount.Confirm.Pay" = "PAY";
+
+"PaidAccount.Done.Title" = "Payment complete";
+"PaidAccount.Done.CreateAccount" = "GO TO CREATE ACCOUNT";
